@@ -1,0 +1,20 @@
+research_task:
+  description: >
+    Research the best attractions in {destination} based on the user's interests: {interests}.
+    Your final output should be a list of 5-7 top attractions with a brief description.
+  expected_output: >
+    A structured list of attractions including their name, location, and a short description.
+
+food_task:
+  description: >
+    Find the best food spots in {destination} that match the user's cuisine preference: {cuisine_preferences}.
+    Provide 5-7 restaurant recommendations with their specialties.
+  expected_output: >
+    A structured list of restaurants including name, location, and recommended dishes.
+
+itinerary_task:
+  description: >
+    Based on the researched attractions and food spots, create a well-balanced itinerary for a 3-day trip to {destination}.
+    Ensure the itinerary includes morning, afternoon, and evening plans for each day.
+  expected_output: >
+    A 3-day itinerary structured by day, listing planned activities and meal locations.
